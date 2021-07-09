@@ -34,22 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML tags specifies exactly whats on the page. Example: <section><footer><header>. Non-Example: <div>
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block: takes up the whole width of the page, causing other elements to fall below it.
+    Inline: only takes up a portion of the line so multiple items can share the same line.
 
 3. What are the 4 areas of the box model?
 
+    Content, Border, Padding, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The Cross Axis 
+
 5. Explain why git is valuable to a team of developers.
+
+    Version control. Allowing you to see what changes were made, by who and when. In case someone's code breaks, you can find out when it broke and go to the version above it to undo those changes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -67,20 +78,20 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [X] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [X] box1: `teal`
+* [X] box2: `gold`
+* [X] box3: `cadetblue`
+* [X] box4: `coral`
+* [X] box5: `crimson`
+* [X] box6: `forestgreen`
+* [X] box7: `darkorchid`
+* [X] box8: `hotpink`
+* [X] box9: `indigo`
+* [X] box10: `dodgerblue`
 
 ### About Page
 
