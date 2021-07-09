@@ -80,7 +80,6 @@ header {
     display: flex;
     align-items: flex-end;
     margin-bottom: 30px;
-    
 }
 
 .logo {
@@ -220,3 +219,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS */
+
+.about-section {
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+
+.about-section p {
+    margin: 15px;
+}
+
+.about-section h3 {
+    margin: 15px;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid black;
+    background: white;
+    padding: 7px;
+    margin: 20px 0;
+}
+
+.gallery-content {
+    border-bottom: 1px dashed black;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.gallery h3 {
+    margin-top: 15px;
+}
+
+.content-top {
+    display: flex;
+    margin: 15px 0;    
+}
+
+.content-bottom {
+    display: flex;
+}
+.bottom {
+    margin-top: 20px;;
+}
+
+.bottom h3 {
+    margin: 15px;
+}
+
+.bottom p {
+    margin: 15px;
+}
+
+
+
